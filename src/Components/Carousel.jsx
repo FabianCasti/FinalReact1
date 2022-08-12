@@ -1,4 +1,5 @@
 import React from 'react';
+import Video from '../video/videocarrousel.mp4'
 
 const Carousel = () => {
     return (
@@ -7,7 +8,7 @@ const Carousel = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
                     {/* <img src="https://images.pexels.com/photos/4665064/pexels-photo-4665064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" alt="..." /> */}
-                        <video src="./src/video/videocarrousel.mp4" autoPlay muted className="d-block w-100 videoc"></video>
+                        <video src={Video} autoPlay muted className="d-block w-100 videoc"></video>
                         <div className="carousel-caption d-block">
                             <h2>STATION INTELIGENT </h2>
                           <a href="" className='btn btn-dark ps-4 pe-4'>Buy Now</a>
